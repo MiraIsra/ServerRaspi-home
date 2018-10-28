@@ -119,3 +119,120 @@ sudo nano index.html
 sudo nano ingresar.php 
 sudo nano index.html 
 sudo nano ingresar.php 
+cd /var/www/html/
+ls
+nano index.html 
+nano ingresar.php 
+sudo nano ingresar.php 
+sudo nano View/View2.html 
+sudo mv /home/pi/Documents/images/Captura\ de\ pantalla\ 2018-10-28\ a\ las\ 10.33.12.png ./images/logo_cam.png
+sudo nano View/View2.html 
+ls
+ls images/
+sudo nano View/View2.html 
+sudo nano index.html 
+sudo nano View/View2.html 
+sudo mkdir ./Proyectos
+sudo nano ./Proyectos/cam_tpa_almacen.html
+sudo nano View/View2.html 
+pwd
+ls
+cd /home/
+git config --global user.name "MiraIsra"
+git config --global user.email israelmiraanton@gmail.com
+git config --global user.name MiraIsra
+git config --global core.editor nano
+git init
+sudo git init
+ls -a .git
+git add --all
+sudo git add --all
+git status
+git remote add origin https://github.com/MiraIsra/ServerRaspi.git
+sudo git remote add origin https://github.com/MiraIsra/ServerRaspi.git
+git push -u origin master
+sudo git remote add origin https://github.com/MiraIsra/ServerRaspi-home.git
+git config --global user.name MiraIsra
+git config --global user.email israelmiraanton@gmail.com
+git config --global core.editor nano
+git init
+sudo git init
+ls -a .git
+git add --all
+sudo git add -all
+sudo git add --all
+git status
+git remote add origin https://github.com/MiraIsra/ServerRaspi-home.git
+pwd
+ls
+git remote rm origin
+sudo git remote rm origin
+git remote add origin https://github.com/MiraIsra/ServerRaspi-home.git
+sudo git remote add origin https://github.com/MiraIsra/ServerRaspi-home.git
+git push -u origin master
+sudo git push -u origin master
+git status
+sudo git remote rm origin
+sudo git init
+git config --user.name MiraIsra
+git config --global user.name MiraIsra
+git config --global user.email israelmiraanton@gmail.com
+git config --global core.editor nano
+sudo git init
+ls -a .git
+sudo git add --all
+git status
+git remote add origin https://github.com/MiraIsra/ServerRaspi-home.git
+sudo git remote add origin https://github.com/MiraIsra/ServerRaspi-home.git
+git status
+git push -u origin master
+sudo git push -u origin master
+cd ./pi
+git push --delete origin 
+ls -a .gint
+ls -a .git
+sudo rm -r .git
+cd ..
+ls
+cd pi
+ls
+ls -la
+cd ..
+ls
+sudo git init
+sudo git add --all
+git status
+git push -u origin master
+sudo git remote add origin https://github.com/MiraIsra/ServerRaspi-home.git
+git push -u origin master
+sudo git push origin master
+sudo rm -r .git
+git config --global user.name MiraIsra
+git config --global user.email israelmiraanton@gmail.com
+git config --global core.editor nano
+sudo git init
+sudo git add --all
+git status
+sudo rm -r .git
+sudo su
+sudo git add -all
+sudo git add --all
+git remote add origin https://github.com/MiraIsra/ServerRaspi-home.git
+sudo git remote add origin https://github.com/MiraIsra/ServerRaspi-home.git
+sudo git push -u origin master
+sudo git remote add origin https://github.com/MiraIsra/ServerRaspi-home.git
+sudo git push -u origin master
+git status
+sudo git push -u origin master
+git commit -m "initial commit"
+sudo git commit -m "initial commit"
+sudo git push -u origin master
+cd /var/www/html
+sudo git init
+sudo git add --all
+git status
+sudo git remote add origin https://github.com/MiraIsra/Repositorio-2.git
+sudo git commit -m "primer comit de prueba"
+sudo git push -u origin master
+sudo reboot now
+sudo shutdown now
