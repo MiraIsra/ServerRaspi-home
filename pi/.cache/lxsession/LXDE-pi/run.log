@@ -1,0 +1,158 @@
+** Message: environement.vala:58: Exporting primary_variable
+** Message: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:150: confir_dirs is null, export : /etc/xdg
+** Message: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:218: custom_data :
+** Message: environement.vala:219: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:540: El archivo de claves no tiene la clave «iGtk/ColorScheme» en el grupo «GTK»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «windows_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «panel/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «dock/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «file_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «desktop_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «launcher_manager/autostart» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «composite_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «im1/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «im2/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «widget1/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «notification/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «keybindings/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «im_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «screensaver/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «power_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «audio_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «workspace_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «screenshot_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «message_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «upgrade_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «updates_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «updates_manager/timeout» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/dev_mode» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/timeout» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «upstart_user_session» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «proxy_manager/http» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «a11y/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «xrandr/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «network_gui/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «webbrowser/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «email/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «pdf_reader/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «video_player/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «audio_player/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «images_display/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «text_editor/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «archive/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «charmap/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «calculator/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «spreadsheet/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «bittorent/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «document/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «webcam/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «burn/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «notes/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «disk_utility/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «tasks/command» en el grupo «Session»
+** Message: settings.vala:540: El archivo de claves no tiene el grupo «Keymap»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «laptop_mode» en el grupo «State»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «gnome» en el grupo «Dbus»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «type» en el grupo «Environment»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «ubuntu_menuproxy» en el grupo «Environment»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «toolkit_integration» en el grupo «Environment»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «gtk/overlay_scrollbar_disable» en el grupo «Environment»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «qt/force_theme» en el grupo «Environment»
+** Message: settings.vala:540: El archivo de claves no tiene la clave «qt/platform» en el grupo «Environment»
+** Message: settings.vala:462: Monitoring: /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:466: Desktop file is already in config home, do nothing
+** Message: environement.vala:79: Exporting variable
+** Message: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:177: custom_config :
+** Message: environement.vala:178: config_dirs :/etc/xdg
+** Message: environement.vala:179: confir_dirs not null, export : /etc/xdg
+** Message: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:218: custom_data :
+** Message: environement.vala:219: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: environement.vala:254: No entry in [Environment_variable]. El archivo de claves no tiene el grupo «Environment_variable»
+** Message: utils.vala:79: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: utils.vala:85: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: utils.vala:89: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: options.vala:164: Activate xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
+xprop:  no such property "_NET_DESKTOP_NAMES"
+** Message: app.vala:721: polkit separate
+** Message: app.vala:721: polkit separate
+** Message: app.vala:76: Launching lxpolkit 
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/autostart
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/autostart
+** Message: autostart.vala:42: Autostart path : /home/pi/.config/lxsession/LXDE-pi/autostart
+** Message: app.vala:76: Launching lxpanel 
+** Message: app.vala:76: Launching pcmanfm 
+
+** (lxsession:659): WARNING **: app.vala:86: Falló al ejecutar el proceso hijo «xscreensaver» (No existe el fichero o el directorio)
+
+** (lxsession:659): WARNING **: app.vala:87: Error when launching xscreensaver
+** Message: app.vala:76: Launching point-rpi 
+** Message: options.vala:107: Create build-in Clipboard
+** Message: main.vala:442: Check keymap_mode (null)
+** Message: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-dbcaMEVyaT9x/agent.763; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=765; export SSH_AGENT_PID;
+echo Agent pid 765;
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: app.vala:130: point-rpi exit with this type of exit: 0
+** Message: app.vala:139: Exit normal, don't reload
+** Message: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+Openbox-Message: No es posible encontrar un archivo de menú "/usr/share/lxde/openbox/menu.xml" válido
+** Message: Connecting ...
+** Message: Status changed to down
+
+** (lxpanel:756): CRITICAL **: dhcpcd_open: Recurso no disponible temporalmente
+Unit pt-device-manager.service could not be found.
+
+** (lxpanel:756): WARNING **: Battery 0 not found
+
+** (lxpanel:756): WARNING **: lxpanel: can't load ptbatt plugin
+** Message: Status changed to opened
+** Message: Connected to dhcpcd-6.11.5
+** Message: Status changed to connected
+** Message: eth0: CARRIER
+** Message: eth0: Configured 192.168.0.118/24
+** Message: eth0: ROUTERADVERT
+** Message: wlan0: Not associated
+** Message: wlan0: WPA status connected
+** Message: wlan0: Received scan results
+** Message: bt: Name org.bluez owned on DBus
+** Message: bt: New agent manager found
+** Message: bt: New adapter found
+** Message: va: Name org.bluez owned on DBus
+
+** (lxpanel:756): WARNING **: launchbar: application in desktop entry is not valid
+
+** (lxpanel:756): WARNING **: launchbar: application in desktop entry is not valid
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+lxsession: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :0.
+openbox-lxde-pi (null) 
+lxpolkit (null) 
+lxpanel --profile LXDE-pi (null) 
+pcmanfm --desktop --profile LXDE-pi (null) 
+point-rpi (null) 
+/usr/bin/ssh-agent -s (null) 
+pcmanfm: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :0.
+lxpolkit: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :0.
+lxpanel: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :0.
+XIO:  fatal IO error 11 (Recurso no disponible temporalmente) on X server ":0"
+      after 9656 requests (9656 known processed) with 0 events remaining.
