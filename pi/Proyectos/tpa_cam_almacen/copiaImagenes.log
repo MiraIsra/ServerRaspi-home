@@ -1,0 +1,13 @@
+Este es el archivo de log donde el script copiaImagenes.py ira guardando los estados en los que se ha quedado y una breve descripción del curso de su ejecucion
+Estados:
+	0: El script se ha iniciado pero no ha llegado a hacer nada.
+	1: El script ha eliminado la carpeta de "anteAyer" del directorio web.
+	2: El script ha movido la carpeta de "ayer" a la carpeta "anteAyer"  en el directorio web.
+	3: El script ha movido la carpeta de "hoy" a la carpeta de "ayer" y ha creado una nueva carpeta "hoy" en el directorio web.
+	4: El script ha creado una carpeta con fecha del dia anterior en el usb.
+	5: El script ha movido todas las imagenes del ftp del dia anterior en el usb.
+	6: El script ha copiado las imagenes que ha tomado hasta ahora a la carpeta  "hoy" para el dia actual.
+		En este estado el script debe copiar las nuevas imagenes del ftp a la carpeta hoy del directorio web.
+		Tras copiar imagenes el escript escribira la fecha y hora y mantendra el estado 6 hasta el dia siguiente.
+2018-10-31 23:43:23.927014 / 0
+2018-11-02 09:09:09.987654 / 0
