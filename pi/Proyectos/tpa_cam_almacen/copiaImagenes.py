@@ -69,6 +69,14 @@ def MueveImagenes (dias, forigen, fdestino, metodo, porc): #parametros: (delta_d
 
     print "Copiadas las imagenes:" + forigen, fdestino, metodo, dias;
 
+# Definimos funcion para eliminar carpeta de una ruta y una fecha
+def EliminaImagenes (ruta, dias):
+    f_elim = datetime.date.today() - delta(days=dias);
+    s_f_elim = str(f_elim);
+    shutil.rmtree(join(ruta, s_f_elim));
+    print "Eliminada la carpeta: " + s_f_elim + " del directorio " + ruta;
+
+
 # Definicion de variables
 fftp = "/home/camarauser/FTP/camaras/tpa_almacen/";
 fweb = "/var/www/html/Proyectos/tpa_almacen/images/";
@@ -89,7 +97,6 @@ est_ant = 0;
 #                Tras copiar imagenes el escript escribira la fecha y hora y mantendra el estado 6 hasta el dia siguiente.
 
 # Veamos el estado de la ultima ejecucion
-# Es la primera del dia?
 log = "init";
 log = read_log();
 f_ant = datetime.datetime.strptime(log[0:24], '%Y-%m-%d %H:%M:%S.%f');
@@ -105,6 +112,7 @@ print "prime_ejec:" + str(prime_ejec) + "   est_ant:" + str(est_ant);
 # Tratamos los posibles casos del fichero
 if (prime_ejec):
     try:
+	EliminaImagenes (fusb, 11);
         write_log ("0");
         prime_ejec=False;
         est_ant = 0;
