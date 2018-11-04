@@ -654,3 +654,320 @@ cd /home/pi/Proyectos/tpa_cam_almacen/
 sudo nano copiaImagenes.py
 ls /media/usb/images/
 sudo nano copiaImagenes.py
+nano Proyectos/tpa_cam_almacen/copiaImagenes.py 
+sudo nano Proyectos/tpa_cam_almacen/copiaImagenes.log 
+nano Proyectos/tpa_cam_almacen/copiaImagenes.py 
+ls /var/www/html/Proyectos/tpa_almacen/
+ls /var/www/html/Proyectos/tpa_almacen/images/
+ls /var/www/html/Proyectos/tpa_almacen/images/anteAyer/
+ls /var/www/html/Proyectos/tpa_almacen/images/ayer/
+nano Proyectos/tpa_cam_almacen/copiaImagenes.py 
+ls /media/usb/images/
+nano Proyectos/tpa_cam_almacen/copiaImagenes.py 
+ls /media/usb/images/2018-11-02/
+ls /media/usb/images/
+ls /media/usb/
+nano Proyectos/tpa_cam_almacen/copiaImagenes.py 
+sudo mv /media/usb/images/A181102* /media/usb/images/2018-11-02/
+nano Proyectos/tpa_cam_almacen/copiaImagenes.py 
+ls /home/camarauser/FTP/camaras/tpa_almacen/A181102*
+sudo mv /home/camarauser/FTP/camaras/tpa_almacen/A18103019563610.jpg /home/camarauser/FTP/camaras/tpa_almacen/A181103123456789.jpg
+nano Proyectos/tpa_cam_almacen/copiaImagenes.py 
+cd Proyectos/tpa_cam_almacen/
+nano copiaImagenes.log
+sudo python copiaImagenes.py
+nano Proyectos/tpa_cam_almacen/copiaImagenes.py 
+nano copiaImagenes.py 
+nano copiaImagenes.log
+sudo python copiaImagenes.py
+nano copiaImagenes.py 
+nano copiaImagenes.log
+sudo python copiaImagenes.py
+nano copiaImagenes.py 
+nano copiaImagenes.log
+nano copiaImagenes.py 
+sudo python copiaImagenes.py
+nano copiaImagenes.py 
+nano copiaImagenes.log
+sudo python copiaImagenes.py
+nano copiaImagenes.py 
+ls /var/www/html/Proyectos/tpa_almacen/
+ls /var/www/html/Proyectos/tpa_almacen/images/ayer/
+ls /var/www/html/Proyectos/tpa_almacen/images/anteAyer/
+ls /var/www/html/Proyectos/tpa_almacen/images/hoy/
+sudo python copiaImagenes_old.py 
+ls /var/www/html/Proyectos/tpa_almacen/images/hoy/
+ls /var/www/html/Proyectos/tpa_almacen/images/anteAyer/
+ls /var/www/html/Proyectos/tpa_almacen/images/ayer/
+cp /media/usb/images/2018-11-02/* /var/www/html/Proyectos/tpa_almacen/images/ayer/
+sudo cp /media/usb/images/2018-11-02/* /var/www/html/Proyectos/tpa_almacen/images/ayer/
+ls /var/www/html/Proyectos/tpa_almacen/images/ayer/
+git status
+sudo git commit -m "copiaImagenes v1.0"
+git add --all
+sudo git add --all
+git statuss
+git status
+git reset HEAD /home/camarauser/FTP/*
+sudo git reset HEAD /home/camarauser/FTP/*
+git status
+sudo git commit -m "copiaImagenes V1.0"
+sudo git push -u origin tpa_almacen_cam 
+mkdir /media/usb/2018-10-30
+sudo mkdir /media/usb/2018-10-30
+sudo mv /home/camarauser/FTP/camaras/tpa_almacen/A181030* /media/usb/2018-10-30/
+ls -la /home/camarauser/FTP/camaras/tpa_almacen/A181030*
+sudo chmod grupoftp:camarauser /media/usb/images/2018-10-30
+sudo chmod camarauser:grupoftp /media/usb/images/2018-10-30
+sudo chown grupoftp:camarauser /media/usb/images/2018-10-30
+sudo chown camarauser:grupoftp /media/usb/images/2018-10-30
+sudo mkdir /media/usb/images/2018-10-30
+sudo chown camarauser:grupoftp /media/usb/images/2018-10-30
+sudo ls -la camarauser:grupoftp /media/usb/images/2018-10-30
+sudo ls -la camarauser:grupoftp /media/usb/images/
+sudo mv /home/camarauser/FTP/camaras/tpa_almacen/A181030* /media/usb/images/2018-10-30/
+sudo chown root:root /home/camarauser/FTP/camaras/tpa_almacen/A181030*
+sudo mv /home/camarauser/FTP/camaras/tpa_almacen/A181030* /media/usb/images/2018-10-30/
+sudo chown root:root /home/camarauser/FTP/camaras/tpa_almacen/A181031*
+sudo mv /home/camarauser/FTP/camaras/tpa_almacen/A181031* /media/usb/images/2018-10-31/
+sudo chown root:root /home/camarauser/FTP/camaras/tpa_almacen/A181101*
+sudo mkdir /media/usb/images/2018-11-01
+sudo mv /home/camarauser/FTP/camaras/tpa_almacen/A181101* /media/usb/images/2018-11-01/
+df -h -T
+ls /home/camarauser/FTP/camaras/tpa_almacen/
+sudo rm /home/camarauser/FTP/camaras/tpa_almacen/A181025-antesdeAntesAyer.jpg 
+sudo rm /home/camarauser/FTP/camaras/tpa_almacen/A181026-anteAyer.jpg 
+sudo rm /home/camarauser/FTP/camaras/tpa_almacen/A181027
+sudo rm /home/camarauser/FTP/camaras/tpa_almacen/A181027-ayer.jpg 
+sudo rm /home/camarauser/FTP/camaras/tpa_almacen/A181028-hoy.jpg 
+sudo rm /home/camarauser/FTP/camaras/tpa_almacen/T18102922224300.jpg 
+sudo nano copiaImagenes.py
+git status
+sudo git commit -m "Version1.1 de copiaImagenes - Elimina imagenes pen tras 10 dias"
+sudo add copiaImagenes.py
+sudo git copiaImagenes.py
+sudo git add copiaImagenes.py
+git status
+sudo git commit -m "Version1.1 de copiaImagenes - Elimina imagenes pen tras 10 dias"
+sudo git push -u origin tpa_almacen_cam 
+sudo crontab -e
+nano copiaImagenes.log 
+sudo crontab -e
+sudo python copiaImagenes.py 
+nano copiaImagenes.log 
+sudo crontab -e
+exit
+cd Proyectos/tpa_cam_almacen/
+sudo python
+ls
+pwd
+exit
+crontab -e
+sudo crontab -e
+cd Proyectos/tpa_cam_almacen/
+nano copiaImagenes.log 
+sudo crontab -e
+crontab -e
+sudo crontab -e
+sudo python copiaImagenes.py
+sudo nano copiaImagenes.py
+sudo python copiaImagenes.py
+ls /var/www/html/Proyectos/tpa_almacen/
+ls /var/www/html/Proyectos/tpa_almacen/images/
+ls /var/www/html/Proyectos/tpa_almacen/images/hoy
+sudo nano copiaImagenes.py
+sudo python copiaImagenes.py
+ls /var/www/html/Proyectos/tpa_almacen/images/hoy
+sudo rm /var/www/html/Proyectos/tpa_almacen/images/hoyA181103*
+ls /media/usb/images/2018-11-02
+cd /var/www/html/
+ls
+sudo nano View/View2.html 
+sudo nano View/View0.html 
+sudo cp /home/pi/Documents/images/logoEstacion.png ./images/
+sudo nano View/View0.html 
+sudo nano View/View2.html 
+df -h -T
+mosquito_pub -h localhost -t /miraisra/estacion/datos -m "Hello world"
+mosquito_pub -h localhost -t /miraisra/estacion/datos -m Hello world
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -m Hello world
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -m "Hello world"
+sudo nano /home/pi/Proyectos/estaciones_meteo/guardaMysql.sh 
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -m "est":1,"temp":21.49,"humRel":77.61,"humAbs":20.00,"lum":7.00,"pres":1020.37,"alt":-32"
+-p 8883
+;
+cd Proyectos/
+ls
+mkdir estaciones_meteo
+sudo mkdir estaciones_meteo
+ls -la
+sudo chmod pi:pi estaciones_meteo/
+sudo chown pi:pi estaciones_meteo/
+cd estaciones_meteo/
+sudo mkdir /var/www/html/Proyectos/estaciones_meteo
+sudo cp ./estacion.html /var/www/html/Proyectos/estaciones_meteo/
+Shell
+sudo wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+1
+sudo apt-key add mosquitto-repo.gpg.key
+cd /etc/apt/sources.list.d/
+sudo wget http://repo.mosquitto.org/debian/mosquitto-jessie.list
+sudo wget http://repo.mosquitto.org/debian/mosquitto-stetch.list
+sudo wget http://repo.mosquitto.org/debian/mosquitto-stretch.list
+ls
+sudo rm mosquitto-jessie.list 
+sudo -i
+cd /home/pi/Proyectos/estaciones_meteo/
+./guardaMysql.sh
+sudo ./guardaMysql.sh
+sudo bash ./guardaMysql.sh
+sudo nano ./guardaMysql.sh 
+sudo bash ./guardaMysql.sh 
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -p 8883
+mosquitto_sub -h localhost -t /miraisra/estacion/datos 
+sudo su
+mosquitto_sub -h localhost -t /miraisra/estacion/datos 
+sudo ./guardaMysql.sh
+sudo bash ./guardaMysql.sh
+sudo nano /etc/mosquitto/mosquitto.conf 
+sudo nano /etc/mosquitto/conf.d/README 
+mosquito -v
+mosquitto -v
+cd ../../
+ls
+pwd
+mkdir certs
+cd certs/
+openssl genrsa -out mosq-ca.key 2048
+openssl req -new -x509 -days365 -key mosq-ca.key -out mosq-ca.crt
+openssl req -new -x509 -d365 -key mosq-ca.key -out mosq-ca.crt
+openssl req -new -x509 -days 365 -key mosq-ca.key -out mosq-ca.crt
+openssl genrsa -out mosq-serv.key 2048
+openssl req -new -key mosq-serv.key -out mosq-serv.csr
+openssl x509 -req -in mosq-serv.csr -CA mosq-ca.crt -CAkey mosq-ca.key -CAcreateserial -out mosq-serv.crt -days 365 -sha256
+openssl x509 -in mosq-serv.crt -noout -textjavascript:void(0)
+openssl x509 -in mosq-serv.crt -noout -textjavascript:void
+sudo nano /etc/mosquitto/mosquitto.conf 
+sudo service mosquitto stop/start
+cd /home/pi/Proyectos/estaciones_meteo/
+sudo bash ./guardaMysql.sh 
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -p 8883
+mosquitto_sub -h localhost -t /miraisra/estacion/datos -p 8883
+sudo nano /etc/mosquitto/mosquitto.conf 
+mosquitto_sub -h localhost -t /miraisra/estacion/datos -p 8883
+sudo service mosquitto stop/start
+/etc/init.d/mosquitto restart
+mosquitto_sub -h localhost -t /miraisra/estacion/datos -p 8883
+sudo bash ./guardaMysql.sh 
+mosquitto_sub -h localhost -t /miraisra/estacion/datos -p 8883
+sudo bash ./guardaMysql.sh 
+cd /home/pi/
+git status
+git add Proyectos/estaciones_meteo/
+sudo git add Proyectos/estaciones_meteo/
+sudo git add certs/
+git status
+git branch master 
+git branch estacion_meteoro 
+git status
+sudo git commit -m "se añade el script para guardar datos recibidos de la estacion de meteorologia"
+git push -u origin tpa_almacen_cam 
+sudo git push -u origin tpa_almacen_cam 
+exit
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -m "est:1,temp:21.49,humRel:77.61,humAbs:20.00,lum:7.00,pres:1020.37,alt:-32"
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -p 8883 -m "est:1,temp:21.49,humRel:77.61,humAbs:20.00,lum:7.00,pres:1020.37,alt:-32"
+sudo nano /home/pi/Proyectos/estaciones_meteo/guardaMysql.sh 
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -p 8883 -m "est:1,temp:21.49,humRel:77.61,humAbs:20.00,lum:7.00,pres:1020.37,alt:-32"
+sudo nano /home/pi/Proyectos/estaciones_meteo/guardaMysql.sh 
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -p 8883 -m "est:1,temp:21.49,humRel:77.61,humAbs:20.00,lum:7.00,pres:1020.37,alt:-32"
+sudo nano /home/pi/Proyectos/estaciones_meteo/guardaMysql.sh 
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -p 8883 -m "est:1,temp:21.49,humRel:77.61,humAbs:20.00,lum:7.00,pres:1020.37,alt:-32"
+sudo nano /home/pi/Proyectos/estaciones_meteo/guardaMysql.sh 
+mosquitto_pub -h localhost -t /miraisra/estacion/datos -p 8883 -m "est:1,temp:21.49,humRel:77.61,humAbs:20.00,lum:7.00,pres:1020.37,alt:-32"
+mosquitto_pub -h localhost -t miraisra/estacion/datos -p 8883 -m "est:1,temp:21.49,humRel:77.61,humAbs:20.00,lum:7.00,pres:1020.37,alt:-32"
+exit
+nano Proyectos/tpa_cam_almacen/copiaImagenes.log 
+sudo python Proyectos/tpa_cam_almacen/copiaImagenes.py
+nano Proyectos/tpa_cam_almacen/copiaImagenes.log 
+sudo python Proyectos/tpa_cam_almacen/copiaImagenes.py
+nano Proyectos/tpa_cam_almacen/copiaImagenes.log 
+cd Proyectos/tpa_cam_almacen/
+sudo python
+nano copiaImagenes.py
+sudo python copiaImagenes.py
+sudo nano copiaImagenes.py
+sudo nano copiaImagenes_old.py 
+sudo nano copiaImagenes.py
+nano copiaImagenes.log 
+ls /var/www/html/Proyectos/tpa_almacen/images/hoy/
+ls /var/www/html/Proyectos/tpa_almacen/images/ayer
+ls /var/www/html/Proyectos/tpa_almacen/images/anteAyer/
+ls /var/www/html/Proyectos/tpa_almacen/images/hoy/
+sudo rm /var/www/html/Proyectos/tpa_almacen/images/hoy/A181104*
+nano copiaImagenes.log 
+sudo python copiaImagenes.py
+ls /var/www/html/Proyectos/tpa_almacen/images/hoy/
+nano copiaImagenes.log 
+sudo rm /var/www/html/Proyectos/tpa_almacen/images/hoy/A181104*
+sudo python copiaImagenes.py
+sudo nano mkdir /media/usb/images/2018-10-24
+sudo mkdir /media/usb/images/2018-10-24
+sudo mkdir /media/usb/images/2018-10-25
+ls /media/usb/images/
+sudo mkdir /media/usb/images/2018-10-26
+sudo mkdir /media/usb/images/2018-10-27
+sudo mkdir /media/usb/images/2018-10-28
+sudo mkdir /media/usb/images/2018-10-29
+nano copiaImagenes.log 
+ls /var/www/html/Proyectos/tpa_almacen/images/hoy/
+ls /var/www/html/Proyectos/tpa_almacen/images/ayer/
+ls /var/www/html/Proyectos/tpa_almacen/images/anteAyer/
+sudo rm /var/www/html/Proyectos/tpa_almacen/images/hoy/A181104*
+ls /var/www/html/Proyectos/tpa_almacen/
+ls /var/www/html/Proyectos/tpa_almacen/images/
+nano copiaImagenes.log 
+nano copiaImagenes.py
+sudo python copiaImagenes.py
+ls /var/www/html/Proyectos/tpa_almacen/images/hoy/
+ls /var/www/html/Proyectos/tpa_almacen/images/ayer/
+ls /var/www/html/Proyectos/tpa_almacen/images/anteAyer/
+crontab -e
+sudo python copiaImagenes.py
+crontab -e
+sudo nano /etc/init.d/detector.init
+sudo chmod 755 /etc/init.d/detector-init
+sudo mv /etc/init.d/detector.init /etc/init.d/detector-init 
+sudo chmod 755 /etc/init.d/detector-init
+sudo /etc/init.d/detector-init start
+sudo nano /etc/init.d/detector-init
+sudo /etc/init.d/detector-init start
+sudo nano /etc/init.d/detector-init
+sudo /etc/init.d/detector-init start
+sudo nano /etc/init.d/detector-init
+sudo /etc/init.d/detector-init start
+sudo nano /etc/init.d/detector-init
+sudo update-rc.d detector-init defaults
+sudo reboot now
+ps aux
+ps aux | grep guardaMysql.sh
+mosquitto_pub -h localhost -t miraisra/estacion/datos -m "{\est\:1,\temp\:8.60,\humRel\:54.97,\humAbs\:16.00,\lum\:84.70,\pres\:1017.02,\alt\:-4,}"
+mosquitto_pub -h localhost -t miraisra/estacion/datos -m "{\est\:1,\temp\:8.60,\humRel\:54.97,\humAbs\:16.00,\lum\:84.70,\pres\:1017.02,\alt\:-4,}" -p 8883
+cd Proyectos/estaciones_meteo/
+ls
+nano guardaMysql.sh 
+sudo bash /home/pi/Proyectos/estaciones_meteo/guardaMysql.sh 
+mosquitto_pub -h localhost -t miraisra/estacion/datos -m "{\est\:1,\temp\:8.60,\humRel\:54.97,\humAbs\:16.00,\lum\:84.70,\pres\:1017.02,\alt\:-4,}" -p 8883
+sudo nano /etc/init.d/detector-init
+ps aux | guardaMysql.sh
+ps aux | grep guardaMysql.sh
+sudo reboot now
+ps aux | grep guardaMysql.sh
+sudo update-rc.d detector-init defaults
+ps aux | grep guardaMysql.sh
+sudo reboot now
+ps aux | grep guardaMysql.sh
+sudo nano /etc/rc.local 
+sudo reboot now
+ps aux | grep guardaMysql.sh
+sudo nano /etc/init.d/detector-init 
+sudo reboot now
