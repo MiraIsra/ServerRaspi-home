@@ -114,7 +114,7 @@ print "prime_ejec:" + str(prime_ejec) + "   est_ant:" + str(est_ant);
 # Tratamos los posibles casos del fichero
 if (prime_ejec):
     try:
-	EliminaImagenes (fusb, 11);
+	EliminaImagenes (fusb, 20);
         write_log ("0");
         prime_ejec=False;
         est_ant = 0;
