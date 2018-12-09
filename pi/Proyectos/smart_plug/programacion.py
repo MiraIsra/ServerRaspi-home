@@ -78,12 +78,18 @@ for estados in est_actuales:
     # print datetime.datetime.strptime(turno[1], '%I:%M:%S');
     s_hora_inicio = str(turno[1]);
     s_hora_final = str(turno[1] + timedelta(minutes=turno[2]));
+    s_hora_final_max = str( turno[1] + timedelta(minutes=turno[2]) + timedelta(minutes=6) ); # Variable que se crea para establecer un tiempo de apagado maximo. Este tiempo se compara con tiempo actual para decidir apagar, como el script se ejecuta cada 5 min se establece aqui un tiempo mayor a 5 min.
     if (len(s_hora_inicio)==7):
       s_hora_inicio = '0'+s_hora_inicio;
     if (len(s_hora_final)==7):
       s_hora_final = '0'+s_hora_final;
+    if (len(s_hora_final_max)==7):
+      s_hora_final_max = '0'+s_hora_final_max;
+
     hora_inicio = datetime.datetime.strptime(s_hora_inicio,'%H:%M:%S').time();
     hora_final = datetime.datetime.strptime(s_hora_final,'%H:%M:%S').time();
+    hora_final_max = datetime.datetime.strptime(s_hora_final_max, '%H:%M:%S').time();
+
     print "hora_inicio, hora final:" + s_hora_inicio +", "+s_hora_final;
     print hora_inicio;
     print hora_final;
@@ -94,7 +100,7 @@ for estados in est_actuales:
       else: print "No se tiene que encender ningun turno";
     elif (estados[1] == 1): # si el estado actual del id_enchufe tratado esta activado.
       if (estados[3] == 1): # Si se ha activado de forma automatica
-        if ((hora_final < datetime.datetime.now().time()) and (hora_final + timedelta(minutes=9) >  datetime.datetime.now().time() )): # Si la hora final del turno es mayor que la actual y menos que la actual mas 9 min. se apaga
+        if ((hora_final < datetime.datetime.now().time()) and (hora_final_max >  datetime.datetime.now().time() )): # Si la hora final del turno es mayor que la actual y menos que la actual mas 9 min. se apaga
           SeteaEstadoDeseadoEnchufe (estados [1], 0, estados[0]);
           print "Tiene que desactivarse un turno";
         else: print "No se tiene que desactivar por ningun turno";
