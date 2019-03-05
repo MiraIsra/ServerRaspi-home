@@ -78,7 +78,7 @@ for estados in est_actuales:
     # print datetime.datetime.strptime(turno[1], '%I:%M:%S');
     s_hora_inicio = str(turno[1]);
     s_hora_final = str(turno[1] + timedelta(minutes=turno[2]));
-    s_hora_final_max = str( turno[1] + timedelta(minutes=turno[2]) + timedelta(minutes=6) ); # Variable que se crea para establecer un tiempo de apagado maximo. Este tiempo se compara con tiempo actual para decidir apagar, como el script se ejecuta cada 5 min se establece aqui un tiempo mayor a 5 min.
+    s_hora_final_max = str( turno[1] + timedelta(minutes=turno[2]) + timedelta(minutes=9) ); # Variable que se crea para establecer un tiempo de apagado maximo. Este tiempo se compara con tiempo actual para decidir apagar, como el script se ejecuta cada 5 min se establece aqui un tiempo mayor a 5 min.
     if (len(s_hora_inicio)==7):
       s_hora_inicio = '0'+s_hora_inicio;
     if (len(s_hora_final)==7):
