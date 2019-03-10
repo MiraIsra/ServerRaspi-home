@@ -1,3 +1,19 @@
+# Script para tratar las imagenes que llegan desde la camara de seguridad que hay en el almacen
+# 
+# Las funciones de este script son:
+#	1) Sincronizar las imagenes que llegan al servidor ftp con el servidor web
+#	2) Copiar las imagenes del dia anterior al usb para almacenarlas
+#	3) Eliminar las imagenes del usb de hace mas de 20 dias
+#	4) Actualizar las carpetas de hoy, ayer y anteayer del servidor web.
+#	5) Eliminar las imagenes del ftp de dias anteriores
+#	6) Guardar el estado de ejecucion y los resultados en un log para detectar errores.
+
+
+# Creacion del script 10/10
+# Modificacion 11/10: Se anyade que las copias de seguridad del pen drive sean de 20 duias
+# Modificaciion 20/12: Se anyaden los comentarios descriptivos del script 
+
+
 import shutil, os, time, datetime
 from datetime import timedelta
 from os import listdir
@@ -197,7 +213,5 @@ if ((est_ant == 5)):
         err = "Error al copiar las imagenes de hoy a web: " + str(inst.args) + " / " + str(inst);
         print err;
         write_log(err);
-#        6: El script ha copiado las imagenes que ha tomado hasta ahora a la carpeta  "hoy" para el dia actual.
-#                Tras copiar imagenes el escript escribira la fecha y hora y mantendra el estado 6 hasta el dia siguiente.
-# Este esta 6 realmente no es necesario
+
 
